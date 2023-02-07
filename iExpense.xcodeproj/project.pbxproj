@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D738DD2629916ACC00F4B9CC /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738DD2529916ACC00F4B9CC /* ExpenseItem.swift */; };
 		D738DD2829916B1300F4B9CC /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738DD2729916B1300F4B9CC /* Expenses.swift */; };
+		D738DD2A2992623000F4B9CC /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738DD292992623000F4B9CC /* AddView.swift */; };
 		D782A44E298AC40400935933 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782A44D298AC40400935933 /* iExpenseApp.swift */; };
 		D782A450298AC40400935933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782A44F298AC40400935933 /* ContentView.swift */; };
 		D782A452298AC40700935933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D782A451298AC40700935933 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		D738DD2529916ACC00F4B9CC /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		D738DD2729916B1300F4B9CC /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		D738DD292992623000F4B9CC /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		D782A44A298AC40400935933 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D782A44D298AC40400935933 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		D782A44F298AC40400935933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 		D782A441298AC40400935933 = {
 			isa = PBXGroup;
 			children = (
+				D738DD292992623000F4B9CC /* AddView.swift */,
 				D782A44C298AC40400935933 /* iExpense */,
 				D782A44B298AC40400935933 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				D738DD2829916B1300F4B9CC /* Expenses.swift in Sources */,
 				D782A450298AC40400935933 /* ContentView.swift in Sources */,
+				D738DD2A2992623000F4B9CC /* AddView.swift in Sources */,
 				D738DD2629916ACC00F4B9CC /* ExpenseItem.swift in Sources */,
 				D782A44E298AC40400935933 /* iExpenseApp.swift in Sources */,
 			);
